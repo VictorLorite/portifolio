@@ -105,13 +105,13 @@ body{
     color: var(--cor-terciaria);
 }
 
-/* IMAGEM - CORREÇÃO PRINCIPAL */
+/
 .apresentacao__imagem {
     width: 50%;
-    max-width: 488px; /* Largura máxima */
-    height: auto; /* Mantém proporção */
+    max-width: 400px;
+    height: auto;
     border-radius: 12px;
-    object-fit: cover; /* Garante que a imagem preencha sem distorcer */
+    object-fit: cover;
 }
 
 .rodape {
@@ -157,8 +157,8 @@ main {
     }
     
     .apresentacao__imagem {
-        width: 70%;
-        max-width: 300px;
+        width: 60%;
+        max-width: 280px;
         height: auto;
     }
 }
